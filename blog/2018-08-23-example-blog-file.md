@@ -12,7 +12,7 @@ Any other photo can be placed inline using the same markdown syntax:
 
 ## Dating the articles
 
-Store blog articles in the format of `blog/year/month/day/title.md`, and the blog logic will then be able to load these files in and organise them by date automatically.
+Store blog articles in the format of `blog/year-month-day-title.md`, and the blog logic will then be able to load these files in and organise them by date automatically. Year-month-day shares lexical and chronographical order, so they'll show in order within the `blog/` directory, and the code can extract the date portions to output them in a directory structure like `/blog/yyyy/mm/dd/blog-title`
 
 All of this is configurable to taste, but it makes the most sense to me this way.
 
