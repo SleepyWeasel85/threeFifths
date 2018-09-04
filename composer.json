@@ -1,0 +1,18 @@
+{
+	"name": "sleepyWeasel85/threeFifths",
+	"description": "3/5 of f.a.",
+
+	"minimum-stability": "dev",
+
+	"require": {
+		"phpgt/webengine": "dev-master",
+		"league/commonmark": "^0.17.5",
+		"league/commonmark-extras": "^0.1.4"
+	},
+
+	"autoload": {
+		"psr-4": {
+			"ThreeFifths\\": "./class"
+		}
+	}
+}

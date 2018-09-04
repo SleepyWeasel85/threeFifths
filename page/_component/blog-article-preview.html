@@ -1,0 +1,14 @@
+<a href="/blog/{year}/{month}/{day}/{titleStub}">
+	<article class="c-blog-article">
+		<h1 data-bind:text="title">
+			Blog title goes here motherfucker
+		</h1>
+		<h2 data-bind:text="subtitle">Some subtext for your article</h2>
+		<time>
+			Posted on <span data-bind:text="dateString">3rd May 2000</span>
+		</time>
+		<div class="content" data-bind:html="preview">
+			Blog content goes here motherfucker.
+		</div>
+	</article>
+</a>
