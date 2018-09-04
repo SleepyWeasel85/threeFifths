@@ -13,6 +13,18 @@
 		display: block;
 		margin: 1rem;
 		font-size: 1.5rem;
+
+		&:hover {
+			font-weight: bold;
+		}
+	}
+
+	h1, h2 {
+		display: none;
+
+		.uri-- & {
+			display: block;
+		}
 	}
 
 	h1 {
