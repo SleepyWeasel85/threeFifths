@@ -1,0 +1,12 @@
+html {
+	font-family: "Scope One", serif;
+	font-size: 16px;
+
+	@media(min-width: $break-min) {
+		font-size: 24px;
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: sans-serif;
+}

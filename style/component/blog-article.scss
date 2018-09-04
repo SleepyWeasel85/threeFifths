@@ -1,0 +1,42 @@
+.c-blog-article {
+	&::after {
+		content: "";
+		display: block;
+		margin: 2rem 1rem;
+		height: 1px;
+		background: #ddd;
+	}
+
+	position: relative;
+	line-height: 1.5em;
+
+	h1, h2, h3, h4, h5, h6, time, p {
+		margin: 1rem;
+	}
+
+	h1 {
+		font-size: 2rem;
+	}
+	h2 {
+		font-weight: normal;
+	}
+	time {
+		font-style: italic;
+	}
+
+	>h1 {
+		margin-top: 4rem;
+	}
+
+	img {
+		display: block;
+		max-width: 100%;
+		max-height: 40vh;
+		margin: 0 auto;
+	}
+
+	blockquote {
+		border-left: 4px solid #aaa;
+		font-style: italic;
+	}
+}

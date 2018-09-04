@@ -1,0 +1,1283 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "85a326224ebcbd6c27821bdd2eeb0780",
+    "packages": [
+        {
+            "name": "composer/semver",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/semver.git",
+                "reference": "2b303e43d14d15cc90c8e8db4a1cdb6259f1a5c5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/semver/zipball/2b303e43d14d15cc90c8e8db4a1cdb6259f1a5c5",
+                "reference": "2b303e43d14d15cc90c8e8db4a1cdb6259f1a5c5",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.2 || ^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.5 || ^5.0.5",
+                "phpunit/phpunit-mock-objects": "2.3.0 || ^3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Semver\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nils Adermann",
+                    "email": "naderman@naderman.de",
+                    "homepage": "http://www.naderman.de"
+                },
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                },
+                {
+                    "name": "Rob Bast",
+                    "email": "rob.bast@gmail.com",
+                    "homepage": "http://robbast.nl"
+                }
+            ],
+            "description": "Semver library that offers utilities, version constraint parsing and validation.",
+            "keywords": [
+                "semantic",
+                "semver",
+                "validation",
+                "versioning"
+            ],
+            "time": "2017-11-06T09:05:54+00:00"
+        },
+        {
+            "name": "ircmaxell/random-lib",
+            "version": "v1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ircmaxell/RandomLib.git",
+                "reference": "e9e0204f40e49fa4419946c677eccd3fa25b8cf4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ircmaxell/RandomLib/zipball/e9e0204f40e49fa4419946c677eccd3fa25b8cf4",
+                "reference": "e9e0204f40e49fa4419946c677eccd3fa25b8cf4",
+                "shasum": ""
+            },
+            "require": {
+                "ircmaxell/security-lib": "^1.1",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^1.11",
+                "mikey179/vfsstream": "^1.6",
+                "phpunit/phpunit": "^4.8|^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "RandomLib": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anthony Ferrara",
+                    "email": "ircmaxell@ircmaxell.com",
+                    "homepage": "http://blog.ircmaxell.com"
+                }
+            ],
+            "description": "A Library For Generating Secure Random Numbers",
+            "homepage": "https://github.com/ircmaxell/RandomLib",
+            "keywords": [
+                "cryptography",
+                "random",
+                "random-numbers",
+                "random-strings"
+            ],
+            "time": "2016-09-07T15:52:06+00:00"
+        },
+        {
+            "name": "ircmaxell/security-lib",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ircmaxell/SecurityLib.git",
+                "reference": "f3db6de12c20c9bcd1aa3db4353a1bbe0e44e1b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ircmaxell/SecurityLib/zipball/f3db6de12c20c9bcd1aa3db4353a1bbe0e44e1b5",
+                "reference": "f3db6de12c20c9bcd1aa3db4353a1bbe0e44e1b5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "1.1.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "SecurityLib": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anthony Ferrara",
+                    "email": "ircmaxell@ircmaxell.com",
+                    "homepage": "http://blog.ircmaxell.com"
+                }
+            ],
+            "description": "A Base Security Library",
+            "homepage": "https://github.com/ircmaxell/SecurityLib",
+            "time": "2015-03-20T14:31:23+00:00"
+        },
+        {
+            "name": "league/commonmark",
+            "version": "0.17.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/commonmark.git",
+                "reference": "82d7ab62d7f68391cb9d323f3ccce50be24a5369"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/82d7ab62d7f68391cb9d323f3ccce50be24a5369",
+                "reference": "82d7ab62d7f68391cb9d323f3ccce50be24a5369",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.6.5"
+            },
+            "replace": {
+                "colinodell/commonmark-php": "*"
+            },
+            "require-dev": {
+                "cebe/markdown": "~1.0",
+                "commonmark/commonmark.js": "0.28",
+                "erusev/parsedown": "~1.0",
+                "michelf/php-markdown": "~1.4",
+                "mikehaertl/php-shellcommand": "^1.2",
+                "phpunit/phpunit": "^5.7|^6.5",
+                "scrutinizer/ocular": "^1.1",
+                "symfony/finder": "^3.0|^4.0"
+            },
+            "suggest": {
+                "league/commonmark-extras": "Library of useful extensions including smart punctuation"
+            },
+            "bin": [
+                "bin/commonmark"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.18-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\CommonMark\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Colin O'Dell",
+                    "email": "colinodell@gmail.com",
+                    "homepage": "https://www.colinodell.com",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "Markdown parser for PHP based on the CommonMark spec",
+            "homepage": "https://github.com/thephpleague/commonmark",
+            "keywords": [
+                "commonmark",
+                "markdown",
+                "parser"
+            ],
+            "time": "2018-03-29T14:35:19+00:00"
+        },
+        {
+            "name": "league/commonmark-extras",
+            "version": "0.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/commonmark-extras.git",
+                "reference": "0f9301270c4de06c328a011f51d2708fc09e8933"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/commonmark-extras/zipball/0f9301270c4de06c328a011f51d2708fc09e8933",
+                "reference": "0f9301270c4de06c328a011f51d2708fc09e8933",
+                "shasum": ""
+            },
+            "require": {
+                "league/commonmark": "^0.13|^0.14|^0.15|^0.16|^0.17",
+                "php": ">=5.4.8"
+            },
+            "require-dev": {
+                "jgm/smartpunct": "0.28",
+                "phpunit/phpunit": "~4.3|~5.0",
+                "scrutinizer/ocular": "~1.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\CommonMark\\Extras\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Colin O'Dell",
+                    "email": "colinodell@gmail.com",
+                    "homepage": "http://www.colinodell.com",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "Useful extensions for customizing the league/commonmark parser",
+            "homepage": "https://github.com/thephpleague/commonmark-extras",
+            "keywords": [
+                "Extras",
+                "commonmark",
+                "extensions",
+                "markdown"
+            ],
+            "time": "2017-12-31T12:55:56+00:00"
+        },
+        {
+            "name": "magicalex/write-ini-file",
+            "version": "v1.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Magicalex/WriteiniFile.git",
+                "reference": "d77f20c9a4ba7e713541539c74d0f14d92283bb6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Magicalex/WriteiniFile/zipball/d77f20c9a4ba7e713541539c74d0f14d92283bb6",
+                "reference": "d77f20c9a4ba7e713541539c74d0f14d92283bb6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.7.*",
+                "satooshi/php-coveralls": "1.0.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WriteiniFile\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Magicalex",
+                    "email": "magicalex@mondedie.fr"
+                }
+            ],
+            "description": "Write-ini-file php library for create, remove, erase, add, and update ini file",
+            "homepage": "https://github.com/Magicalex/WriteIniFile",
+            "keywords": [
+                "file",
+                "ini",
+                "write",
+                "write_ini_file"
+            ],
+            "time": "2017-03-21T02:45:50+00:00"
+        },
+        {
+            "name": "phpgt/build",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PhpGt/Build.git",
+                "reference": "a3abd74bcf5f367a19a160f717ee1977cdbfbe78"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PhpGt/Build/zipball/a3abd74bcf5f367a19a160f717ee1977cdbfbe78",
+                "reference": "a3abd74bcf5f367a19a160f717ee1977cdbfbe78",
+                "shasum": ""
+            },
+            "require": {
+                "composer/semver": "^1.4",
+                "php": "^7.1",
+                "webmozart/glob": "^4.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.4"
+            },
+            "bin": [
+                "bin/build"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Gt\\Build\\": "./src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Build system for PHP 7 projects.",
+            "time": "2018-07-30T14:51:07+00:00"
+        },
+        {
+            "name": "phpgt/config",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PhpGt/Config.git",
+                "reference": "8c2fe9b607557be34058c091f10408bda40d8bb5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PhpGt/Config/zipball/8c2fe9b607557be34058c091f10408bda40d8bb5",
+                "reference": "8c2fe9b607557be34058c091f10408bda40d8bb5",
+                "shasum": ""
+            },
+            "require": {
+                "magicalex/write-ini-file": "v1.2.3",
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "6.4.*|7.3.*"
+            },
+            "bin": [
+                "bin/config-generate"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Gt\\Config\\": "./src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Greg Bowler",
+                    "email": "greg.bowler@g105b.com"
+                }
+            ],
+            "description": "Load configuration from ini files or environment variables.",
+            "time": "2018-08-23T10:34:31+00:00"
+        },
+        {
+            "name": "phpgt/cookie",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PhpGt/Cookie.git",
+                "reference": "0a99fc82f0a213a3ea89bec9a7181189a0f6528d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PhpGt/Cookie/zipball/0a99fc82f0a213a3ea89bec9a7181189a0f6528d",
+                "reference": "0a99fc82f0a213a3ea89bec9a7181189a0f6528d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Gt\\Cookie\\": "./src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Greg Bowler",
+                    "email": "greg.bowler@g105b.com"
+                }
+            ],
+            "description": "Object oriented cookie handler.",
+            "time": "2018-07-30T14:51:44+00:00"
+        },
+        {
+            "name": "phpgt/csrf",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PhpGt/Csrf.git",
+                "reference": "a598b129098936348fc90808bab73edaea10cf17"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PhpGt/Csrf/zipball/a598b129098936348fc90808bab73edaea10cf17",
+                "reference": "a598b129098936348fc90808bab73edaea10cf17",
+                "shasum": ""
+            },
+            "require": {
+                "ircmaxell/random-lib": "^1.2",
+                "php": ">=7.1",
+                "phpgt/dom": ">1.0",
+                "phpgt/session": "dev-master"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.4|^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Gt\\Csrf\\": "./src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "James Fellows",
+                    "email": "mrfellows@gmail.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Greg Bowler",
+                    "email": "greg.bowler@g105b.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Automatic protection from Cross-Site Request Forgery.",
+            "time": "2018-08-23T10:35:51+00:00"
+        },
+        {
+            "name": "phpgt/database",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PhpGt/Database.git",
+                "reference": "c4bf39f94dab3720eb7eabe8ac167d237a387455"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PhpGt/Database/zipball/c4bf39f94dab3720eb7eabe8ac167d237a387455",
+                "reference": "c4bf39f94dab3720eb7eabe8ac167d237a387455",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": "^7.1",
+                "phpgt/config": "*"
+            },
+            "require-dev": {
+                "ext-sqlite3": "*",
+                "phpunit/phpunit": "^6.3|^7.0"
+            },
+            "bin": [
+                "bin/db-migrate"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Gt\\Database\\": "./src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Greg Bowler",
+                    "email": "greg.bowler@g105b.com"
+                },
+                {
+                    "name": "James Fellows",
+                    "email": "james.fellows@finanscapes.com"
+                }
+            ],
+            "description": "Database API organisation.",
+            "time": "2018-08-23T10:35:08+00:00"
+        },
+        {
+            "name": "phpgt/dom",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PhpGt/Dom.git",
+                "reference": "8b836d836989ff300d1f3db1a6855329fd1941a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PhpGt/Dom/zipball/8b836d836989ff300d1f3db1a6855329fd1941a9",
+                "reference": "8b836d836989ff300d1f3db1a6855329fd1941a9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0",
+                "symfony/css-selector": "3.2.*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Gt\\Dom\\": "./src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Greg Bowler",
+                    "email": "greg.bowler@g105b.com",
+                    "homepage": "https://www.g105b.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Alvaro Guimaraes",
+                    "homepage": "https://github.com/aguimaraes",
+                    "role": "Developer"
+                },
+                {
+                    "name": "James Fellows",
+                    "homepage": "https://github.com/j4m3s",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Emile Ward",
+                    "homepage": "https://github.com/emileward",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Jelmer Wijnja",
+                    "homepage": "https://github.com/Jelmergu",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Ognjen Petrovic",
+                    "homepage": "https://github.com/ognjen-petrovic",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Jacob Bearden",
+                    "homepage": "https://github.com/jacobbearden",
+                    "role": "Documentation contributor"
+                },
+                {
+                    "name": "Jaroslav Týc",
+                    "homepage": "https://www.jaroslavtyc.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The modern DOM API for PHP 7 projects.",
+            "time": "2018-08-10T09:54:04+00:00"
+        },
+        {
+            "name": "phpgt/domtemplate",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PhpGt/DomTemplate.git",
+                "reference": "065f291837a65ad4bb90947162781ac2b0260b1a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PhpGt/DomTemplate/zipball/065f291837a65ad4bb90947162781ac2b0260b1a",
+                "reference": "065f291837a65ad4bb90947162781ac2b0260b1a",
+                "shasum": ""
+            },
+            "require": {
+                "phpgt/dom": "dev-master"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Gt\\DomTemplate\\": "./src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Bind dynamic data to reusable HTML components.",
+            "time": "2018-08-01T22:49:24+00:00"
+        },
+        {
+            "name": "phpgt/http",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PhpGt/Http.git",
+                "reference": "68ddce8662f2a18606e44ecb861f2e74623da01e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PhpGt/Http/zipball/68ddce8662f2a18606e44ecb861f2e74623da01e",
+                "reference": "68ddce8662f2a18606e44ecb861f2e74623da01e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1",
+                "phpgt/cookie": "dev-master",
+                "phpgt/input": "dev-master",
+                "psr/http-message": "^1.0@dev",
+                "willdurand/negotiation": "^2.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Gt\\Http\\": "./src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PSR-7 HTTP message implementation.",
+            "time": "2018-07-30T14:50:04+00:00"
+        },
+        {
+            "name": "phpgt/input",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PhpGt/Input.git",
+                "reference": "58b5a132bfa41fbcf9262797b47a80f51586eef8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PhpGt/Input/zipball/58b5a132bfa41fbcf9262797b47a80f51586eef8",
+                "reference": "58b5a132bfa41fbcf9262797b47a80f51586eef8",
+                "shasum": ""
+            },
+            "require": {
+                "phpgt/http": "dev-master"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Gt\\Input\\": "./src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Encapsulated user input.",
+            "time": "2018-08-23T10:36:05+00:00"
+        },
+        {
+            "name": "phpgt/protectedglobal",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PhpGt/ProtectedGlobal.git",
+                "reference": "101d50d24f96be9422fb3a43f85ffbc2eab0a4eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PhpGt/ProtectedGlobal/zipball/101d50d24f96be9422fb3a43f85ffbc2eab0a4eb",
+                "reference": "101d50d24f96be9422fb3a43f85ffbc2eab0a4eb",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "7.3.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Gt\\ProtectedGlobal\\": "./src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Protect against accidental use of superglobals.",
+            "time": "2018-08-23T10:35:59+00:00"
+        },
+        {
+            "name": "phpgt/session",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PhpGt/Session.git",
+                "reference": "60bf640b34aa715490938b40d52b6f24febdd742"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PhpGt/Session/zipball/60bf640b34aa715490938b40d52b6f24febdd742",
+                "reference": "60bf640b34aa715490938b40d52b6f24febdd742",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Gt\\Session\\": "./src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Encapsulated user sessions.",
+            "time": "2018-08-23T10:36:11+00:00"
+        },
+        {
+            "name": "phpgt/webengine",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PhpGt/WebEngine.git",
+                "reference": "c40fbdffaccc57090d181ca0e11b391f700bd58c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PhpGt/WebEngine/zipball/c40fbdffaccc57090d181ca0e11b391f700bd58c",
+                "reference": "c40fbdffaccc57090d181ca0e11b391f700bd58c",
+                "shasum": ""
+            },
+            "require": {
+                "phpgt/build": "dev-master",
+                "phpgt/config": "dev-master",
+                "phpgt/cookie": "dev-master",
+                "phpgt/csrf": "dev-master",
+                "phpgt/database": "dev-master",
+                "phpgt/dom": "dev-master",
+                "phpgt/domtemplate": "dev-master",
+                "phpgt/http": "dev-master",
+                "phpgt/input": "dev-master",
+                "phpgt/protectedglobal": "dev-master",
+                "phpgt/session": "dev-master",
+                "psr/http-server-middleware": "^1.0",
+                "symfony/css-selector": "*",
+                "willdurand/negotiation": "^2.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "bin": [
+                "bin/gt-build",
+                "bin/gt-serve",
+                "bin/gt-run"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Gt\\WebEngine\\": "./src/",
+                    "Gt\\Test\\WebEngine\\": "./test/unit/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Rapid development engine.",
+            "keywords": [
+                "Toolbox",
+                "framework",
+                "gt",
+                "php",
+                "php.gt",
+                "phpgt",
+                "prototype",
+                "router",
+                "webengine",
+                "webservice"
+            ],
+            "time": "2018-08-21T20:40:44+00:00"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2016-08-06T14:39:51+00:00"
+        },
+        {
+            "name": "psr/http-server-handler",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-server-handler.git",
+                "reference": "ede6c504a77ebc87e7256d13df5877cbf9127104"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-server-handler/zipball/ede6c504a77ebc87e7256d13df5877cbf9127104",
+                "reference": "ede6c504a77ebc87e7256d13df5877cbf9127104",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0",
+                "psr/http-message": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Server\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP server-side request handler",
+            "keywords": [
+                "handler",
+                "http",
+                "http-interop",
+                "psr",
+                "psr-15",
+                "psr-7",
+                "request",
+                "response",
+                "server"
+            ],
+            "time": "2018-01-26T14:27:09+00:00"
+        },
+        {
+            "name": "psr/http-server-middleware",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-server-middleware.git",
+                "reference": "e01237126449cadfb66b60a5a818de9e9dde6bf3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-server-middleware/zipball/e01237126449cadfb66b60a5a818de9e9dde6bf3",
+                "reference": "e01237126449cadfb66b60a5a818de9e9dde6bf3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0",
+                "psr/http-message": "^1.0",
+                "psr/http-server-handler": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Server\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP server-side middleware",
+            "keywords": [
+                "http",
+                "http-interop",
+                "middleware",
+                "psr",
+                "psr-15",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2018-01-22T22:18:49+00:00"
+        },
+        {
+            "name": "symfony/css-selector",
+            "version": "3.2.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/css-selector.git",
+                "reference": "02983c144038e697c959e6b06ef6666de759ccbc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/02983c144038e697c959e6b06ef6666de759ccbc",
+                "reference": "02983c144038e697c959e6b06ef6666de759ccbc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\CssSelector\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jean-François Simon",
+                    "email": "jeanfrancois.simon@sensiolabs.com"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony CssSelector Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-05-01T14:55:58+00:00"
+        },
+        {
+            "name": "webmozart/assert",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webmozart/assert.git",
+                "reference": "53927dddf3afa2088b355188e143bba42159bf5d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webmozart/assert/zipball/53927dddf3afa2088b355188e143bba42159bf5d",
+                "reference": "53927dddf3afa2088b355188e143bba42159bf5d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3 || ^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.6",
+                "sebastian/version": "^1.0.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Webmozart\\Assert\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bernhard Schussek",
+                    "email": "bschussek@gmail.com"
+                }
+            ],
+            "description": "Assertions to validate method input/output with nice error messages.",
+            "keywords": [
+                "assert",
+                "check",
+                "validate"
+            ],
+            "time": "2018-05-29T14:25:02+00:00"
+        },
+        {
+            "name": "webmozart/glob",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webmozart/glob.git",
+                "reference": "8da14867b709e8776d9f6272faaf844aefc695e3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webmozart/glob/zipball/8da14867b709e8776d9f6272faaf844aefc695e3",
+                "reference": "8da14867b709e8776d9f6272faaf844aefc695e3",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3|^7.0",
+                "webmozart/path-util": "^2.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.6",
+                "sebastian/version": "^1.0.1",
+                "symfony/filesystem": "^2.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Webmozart\\Glob\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bernhard Schussek",
+                    "email": "bschussek@gmail.com"
+                }
+            ],
+            "description": "A PHP implementation of Ant's glob.",
+            "time": "2016-08-15T15:31:26+00:00"
+        },
+        {
+            "name": "webmozart/path-util",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webmozart/path-util.git",
+                "reference": "95a8f7ad150c2a3773ff3c3d04f557a24c99cfd2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webmozart/path-util/zipball/95a8f7ad150c2a3773ff3c3d04f557a24c99cfd2",
+                "reference": "95a8f7ad150c2a3773ff3c3d04f557a24c99cfd2",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3|^7.0",
+                "webmozart/assert": "~1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.6",
+                "sebastian/version": "^1.0.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Webmozart\\PathUtil\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bernhard Schussek",
+                    "email": "bschussek@gmail.com"
+                }
+            ],
+            "description": "A robust cross-platform utility for normalizing, comparing and modifying file paths.",
+            "time": "2016-08-15T15:31:42+00:00"
+        },
+        {
+            "name": "willdurand/negotiation",
+            "version": "2.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/willdurand/Negotiation.git",
+                "reference": "cf78c9ac47e8e1e141bf609c71e9e2c3a7780dcf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/willdurand/Negotiation/zipball/cf78c9ac47e8e1e141bf609c71e9e2c3a7780dcf",
+                "reference": "cf78c9ac47e8e1e141bf609c71e9e2c3a7780dcf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Negotiation\\": "src/Negotiation"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "William Durand",
+                    "email": "will+git@drnd.me"
+                }
+            ],
+            "description": "Content Negotiation tools for PHP provided as a standalone library.",
+            "homepage": "http://williamdurand.fr/Negotiation/",
+            "keywords": [
+                "accept",
+                "content",
+                "format",
+                "header",
+                "negotiation"
+            ],
+            "time": "2017-08-04T15:54:30+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "phpgt/webengine": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

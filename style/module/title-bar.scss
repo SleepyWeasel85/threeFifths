@@ -1,0 +1,25 @@
+.m-title-bar {
+	background-color: #222;
+	color: #ddd;
+	text-align: center;
+	overflow: hidden;
+
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+
+	.logo {
+		display: block;
+		margin: 1rem;
+		font-size: 1.5rem;
+	}
+
+	h1 {
+		font-size: 3rem;
+	}
+	h2 {
+		font-size: 1.5rem;
+		font-weight: normal;
+	}
+}
